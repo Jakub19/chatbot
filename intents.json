@@ -1,10 +1,10 @@
 {"intents": [
   {"tag":  "greetings",
-  "patterns":  ["Cześć", "Siema", "Dzień dobry"],
-  "responses":  ["Witaj", "Hej, co mogę dla Ciebie zrobić?"]
+  "patterns":  ["Czesc", "Siema", "Dzien dobry"],
+  "responses":  ["Witaj", "Hej, co mogę dla Ciebie zrobic?"]
   },
   {"tag":  "goodbye",
-  "patterns":  ["Na razie", "Pa", "Żegnaj", "Dowidzenia"],
-  "responses":  ["Trzymaj się!", "Dowidzenia!"]
+  "patterns":  ["Na razie", "Pa", "Zegnaj", "Dowidzenia"],
+  "responses":  ["Trzymaj sie!", "Dowidzenia!"]
   }
 ]}
