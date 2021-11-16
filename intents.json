@@ -1,10 +1,42 @@
 {"intents": [
-  {"tag":  "greetings",
-  "patterns":  ["czesc", "siema", "dzien dobry"],
-  "responses":  ["witaj", "hej, co moge dla ciebie zrobic?","dzien dobry!"]
+  {"tag":  "przywitanie",
+  "patterns":  ["Czesc", "Siema", "Dzien dobry"],
+  "responses":  ["Witaj!", "Hej, co moge dla ciebie zrobic?","Dzien dobry!","Witaj, w czym moge pomoc?"]
   },
-  {"tag":  "goodbye",
-  "patterns":  ["na razie", "pa", "zegnaj", "do widzenia"],
-  "responses":  ["trzymaj sie!", "do widzenia!"]
+  {"tag":  "pozegnanie",
+  "patterns":  ["Na razie", "Pa", "Zegnaj", "Do widzenia","Do zobaczenia"],
+  "responses":  ["Trzymaj sie!", "Do widzenia!","Do zobaczenia!"]
+  },
+  {"tag":  "imie",
+    "patterns":  ["Jak masz na imie", "Jak sie nazywasz", "Kim jestes"],
+    "responses":  ["Jestem  "]
+  },
+  {"tag":  "przeznaczenie",
+    "patterns":  ["Do czego sluzysz", "Co mozesz robic", "Co mozesz zrobic", "Co potrafisz"],
+    "responses":  ["Jestem wirtualnym informatorem nadchodzących targów Gaming Expo! Możesz zadawać mi pytania dotyczące targów!."]
+  },
+  {"tag":  "bilety-ogolne",
+    "patterns":  ["Ile kosztuja bilety", "Za ile wejscie", "Ile to kosztuje"],
+    "responses":  ["Ceny biletow to: normalny - 50zl, ulgowy(dzieci do lat 10 i studenci) - 30zl."]
+  },
+  {"tag":  "bilety-normalne",
+    "patterns":  ["Ile kosztuja bilety normalne", "Za ile wejscie dla doroslych", "Ile kosztuje bilet normalny"],
+    "responses":  ["Bilet normalny kosztuje 50zl."]
+  },
+  {"tag":  "bilety-ulgowe",
+    "patterns":  ["Ile kosztuja bilety ulgowe", "Za ile wejscie dla dzieci", "Ile kosztuje bilet ulgowy", "Ile za bilet dla dzieci", "Czy jest znizka studencka", "Czy studenci taniej", "Czy dzieci taniej"],
+    "responses":  ["Bilet ulgowy(dzieci do lat 10 i studenci) kosztuje 3zl."]
+  },
+  {"tag":  "bilety-gdzie",
+    "patterns":  ["Gdzie kupie bilety", "Gdzie mozna kupic bilety"],
+    "responses":  ["Bilet kupisz w kasie przy wejsciu lub na naszej stronie internetowej!"]
+  },
+  {"tag":  "termin",
+    "patterns":  ["Kiedy odbywaja sie targi", "Kiedy zaczynaja sie targi", "kiedy"],
+    "responses":  ["Targi odbywaja sie juz 11 grudnia 2021!"]
+  },
+  {"tag":  "gdzie",
+    "patterns":  ["Gdzie odbywaja sie targi", "Gdzie beda targi", "gdzie"],
+    "responses":  ["Targi odbywaja sie w Hali Stulecia we Wroclawiu!"]
   }
 ]}
