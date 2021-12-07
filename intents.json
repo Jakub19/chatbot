@@ -9,11 +9,15 @@
   },
   {"tag":  "imie",
     "patterns":  ["Jak masz na imie", "Jak sie nazywasz", "Kim jestes"],
-    "responses":  ["Jestem  "]
+    "responses":  ["Mam na imie ChatBot! Jestem wirtualnym asystentem targow Gaming Expo!"]
+  },
+  {"tag":  "samopoczucie",
+    "patterns":  ["Jak sie masz", "Jak sie czujesz", "Jak tam"],
+    "responses":  ["U mnie wspaniale, mam nadzieje, ze u Ciebie tez!"]
   },
   {"tag":  "przeznaczenie",
-    "patterns":  ["Do czego sluzysz", "Co mozesz robic", "Co mozesz zrobic", "Co potrafisz"],
-    "responses":  ["Jestem wirtualnym informatorem nadchodzących targów Gaming Expo! Możesz zadawać mi pytania dotyczące targów!."]
+    "patterns":  ["Do czego sluzysz", "Co mozesz robic", "Co mozesz zrobic", "Co potrafisz", "Co robisz"],
+    "responses":  ["Jestem wirtualnym informatorem nadchodzacych targow Gaming Expo! Mozesz zadawac mi pytania dotyczace targow!."]
   },
   {"tag":  "bilety-ogolne",
     "patterns":  ["Ile kosztuja bilety", "Za ile wejscie", "Ile to kosztuje"],
