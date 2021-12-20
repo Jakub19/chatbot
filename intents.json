@@ -1,6 +1,6 @@
 {"intents": [
   {"tag":  "przywitanie",
-  "patterns":  ["Czesc", "Siema", "Dzien dobry"],
+  "patterns":  ["Czesc", "Siema", "Dzien dobry", "Witaj"],
   "responses":  ["Witaj!", "Hej, co moge dla ciebie zrobic?","Dzien dobry!","Witaj, w czym moge pomoc?"]
   },
   {"tag":  "pozegnanie",
